@@ -28,9 +28,13 @@ This script fetches the prices of Old School RuneScape items from the Grand Exch
 
 1. **Generate the `items.txt` file**:
    Use the `genlist.py` script to generate the initial `items.txt` file. The `genlist.py` script should contain your base list of item IDs, names, and their enabled status.
-   ```python genlist.py```
+   ```bash
+   python genlist.py
+   ```
 3. **Run python osrs-mk.py**
-   ```python osrs-mk.py```
+   ```bash
+   python osrs-mk.py
+   ```
 ## Menu Options
 1. Add item: Add a new item to the list by entering its ID and name.
 2. Remove item: Remove an item from the list by entering its ID.
