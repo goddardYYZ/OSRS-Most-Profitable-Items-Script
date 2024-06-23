@@ -23,7 +23,7 @@ def get_player_count():
 def main():
     player_count = get_player_count()
     if player_count is not None:
-        print(f"Current player count: {player_count}")
+        print(f"Current player count: {player_count:,}")
     else:
         print("Failed to retrieve player count.")
 
