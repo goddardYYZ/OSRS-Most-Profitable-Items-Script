@@ -1,3 +1,4 @@
+# osrs-mk
 # OSRS Most Profitable Items Script
 
 This script fetches the prices of Old School RuneScape items from the Grand Exchange API, calculates the most profitable items, and lists the top items by profit. It also includes functionality to manage the item list, enabling and disabling items, and error handling for failed price checks.
@@ -62,7 +63,8 @@ Menu Options
 Example Output
 When you select the option to calculate profits, the script will output the top profitable items:
 
-
+yaml
+Copy code
 1. Item: Blighted manta ray, Profit: 150.00, Cost Price: 1000.00, Sell Price: 1050.00
 2. Item: Varrock teleport, Profit: 75.00, Cost Price: 500.00, Sell Price: 525.00
 ...
