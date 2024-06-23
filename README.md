@@ -63,13 +63,12 @@ Menu Options
 Example Output
 When you select the option to calculate profits, the script will output the top profitable items:
 
-yaml
-Copy code
+## Example
 1. Item: Blighted manta ray, Profit: 150.00, Cost Price: 1000.00, Sell Price: 1050.00
 2. Item: Varrock teleport, Profit: 75.00, Cost Price: 500.00, Sell Price: 525.00
 ...
-Error Handling
+## Error Handling
 If there is an error fetching the price for an item, the script will automatically disable the item and save the updated list to items.txt.
 
-Contributing
+## Contributing
 Contributions are welcome! Please fork this repository and submit pull requests to contribute improvements or bug fixes.
