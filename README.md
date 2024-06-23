@@ -29,21 +29,7 @@ This script fetches the prices of Old School RuneScape items from the Grand Exch
 1. **Generate the `items.txt` file**:
    Use the `genlist.py` script to generate the initial `items.txt` file. The `genlist.py` script should contain your base list of item IDs, names, and their enabled status.
 
-   Example `genlist.py`:
-   ```python
-   def generate_item_list(file_name):
-       items = [
-           (8007, "Varrock teleport", True),
-           (24589, "Blighted manta ray", True),
-           (24592, "Blighted anglerfish", True),
-           (24595, "Blighted karambwan", True)
-       ]
-       with open(file_name, "w") as file:
-           for item_id, item_name, item_enabled in items:
-               file.write(f"{item_id},{item_name},{item_enabled}\n")
 
-   if __name__ == "__main__":
-       generate_item_list("items.txt")
 Run genlist.py to create items.txt:
 
 bash
