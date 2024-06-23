@@ -30,7 +30,7 @@ This script fetches the prices of Old School RuneScape items from the Grand Exch
    Use the `genlist.py` script to generate the initial `items.txt` file. The `genlist.py` script should contain your base list of item IDs, names, and their enabled status.
 2. **Run python osrs-mk.py**
    python osrs-mk.py
-Menu Options
+   Menu Options
 1. Add item: Add a new item to the list by entering its ID and name.
 2. Remove item: Remove an item from the list by entering its ID.
 3. Toggle item: Enable or disable an item in the list by entering its ID.
