@@ -1,4 +1,3 @@
-# osrs-mk
 # OSRS Most Profitable Items Script
 
 This script fetches the prices of Old School RuneScape items from the Grand Exchange API, calculates the most profitable items, and lists the top items by profit. It also includes functionality to manage the item list, enabling and disabling items, and error handling for failed price checks.
